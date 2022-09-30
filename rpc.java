@@ -9,7 +9,7 @@ public class rpc {
         System.out.print("Rock(0), Paper (1), Scissors (2): ");
         int op = scan.nextInt();
         scan.close();
-        int cop = random.nextInt(2);
+        int cop = random.nextInt(3);
         try{
         System.out.println("You played " + options[op] + ". The computer played " + options[cop] + ".");
         }
